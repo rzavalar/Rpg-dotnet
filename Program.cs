@@ -19,6 +19,7 @@ builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 //Inyectamos esto para la implementacion de servicios e interfaces
 builder.Services.AddScoped<ICharacterService,CharacterService>();
+builder.Services.AddScoped<IAuthRepository,AuthRepository>();
 
 var app = builder.Build();
 

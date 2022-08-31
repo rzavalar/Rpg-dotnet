@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-
 namespace dotnet__rpg.Data
 {
     public class DataContext:DbContext
@@ -11,5 +10,7 @@ namespace dotnet__rpg.Data
 
         //Pluralisar nombre de entidad
         public DbSet<Character> Characters{get;set;}
+
+        public DbSet<User> Users{get;set;}
     }
 }
