@@ -18,5 +18,7 @@ namespace dotnet__rpg.Models
 
         public User? User {get;set;}
 
+        public Weapon? Weapon {get;set;}
+
     }
 }
